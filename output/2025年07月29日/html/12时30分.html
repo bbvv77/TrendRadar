@@ -1,0 +1,90 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>报告类型: 实时分析</p><p>总标题数: 255</p><p>生成时间: 2025-07-29 12:30:22</p>
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">国内 中国</td>
+                    <td class="count">12</td>
+                    <td class="percentage">4.71%</td>
+                    <td class="titles">[今日头条] <a href="https://www.toutiao.com/trending/7531312624953671734/" target="_blank" class="news-link">泰柬两国领导人双双感谢中国</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 12时30分</font><br>[百度热搜] <a href="https://www.baidu.com/s?wd=%E6%9F%AC%E6%B3%B0%E5%81%9C%E7%81%AB+%E4%B8%A4%E5%9B%BD%E9%A2%86%E5%AF%BC%E4%BA%BA%E5%8F%8C%E5%8F%8C%E6%84%9F%E8%B0%A2%E4%B8%AD%E5%9B%BD" target="_blank" class="news-link">柬泰停火 两国领导人双双感谢中国</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 12时30分</font><br>[华尔街见闻] <a href="https://wallstreetcn.com/articles/3752017" target="_blank" class="news-link">被特朗普“吃干抹净”，欧洲最大的遗憾是“4月没有和中国一起反抗”</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 12时30分</font><br>[抖音] <a href="https://www.douyin.com/hot/2184573" target="_blank" class="news-link">中国游热度持续提升</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 12时30分</font><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2099154" target="_blank" class="news-link">第三家汽车央企落地！中国长安汽车集团：未来发力飞行汽车、具身智能新赛道</a> [7] <font color='grey'>- 12时30分</font></div><br>[百度热搜] <a href="https://www.baidu.com/s?wd=%E6%9B%BE%E7%AD%96%E5%88%92%E8%A2%AD%E5%87%BB%E4%B8%AD%E5%9B%BD%E4%BA%BA%E7%9A%84%E6%AD%A6%E8%A3%85%E5%88%86%E5%AD%90%E8%A2%AB%E5%87%BB%E6%AF%99" target="_blank" class="news-link">曾策划袭击中国人的武装分子被击毙</a> [9] <font color='grey'>- 12时30分</font><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E6%96%B0%E5%A4%AE%E4%BC%81%E4%B8%AD%E5%9B%BD%E9%95%BF%E5%AE%89%E6%B1%BD%E8%BD%A6%E9%9B%86%E5%9B%A2%E6%8C%82%E7%89%8C%E6%88%90%E7%AB%8B" target="_blank" class="news-link">新央企中国长安汽车集团挂牌成立</a> [10] <font color='grey'>- 12时30分</font></div><br>[凤凰网] <a href="https://news.ifeng.com/c/8lNTTQZOiTp" target="_blank" class="news-link">“中国版N号房”，只是冰山一角</a> [10] <font color='grey'>- 12时30分</font><br>[澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_31249563" target="_blank" class="news-link">中国佛教协会同意对释永信的戒牒予以注销</a> [11] <font color='grey'>- 12时30分</font><br>[澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_31249829" target="_blank" class="news-link">在美中国学者被无理拘押，外交部：敦促美方停止搞有罪推定和政治操弄</a> [17] <font color='grey'>- 12时30分</font><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7532316491706797631/" target="_blank" class="news-link">中国如何应对胡塞升级海上封锁</a> [18] <font color='grey'>- 12时30分</font></div><br>[澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_31249861" target="_blank" class="news-link">世锦赛男子100米蛙泳决赛，覃海洋为中国游泳队夺得首金</a> [19] <font color='grey'>- 12时30分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">明星 综艺 新闻 国内 娱乐 影视 艺人</td>
+                    <td class="count">3</td>
+                    <td class="percentage">1.18%</td>
+                    <td class="titles">[华尔街见闻] <a href="https://wallstreetcn.com/articles/3751982" target="_blank" class="news-link">美股窄幅收高，美元大涨，黄金四连跌，国内双焦夜盘再挫</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 12时30分</font><br>[财联社热门] <a href="https://www.cls.cn/detail/2098894" target="_blank" class="news-link">7月29日投资避雷针：国内商品期市夜盘收盘多数下跌 焦煤再度重挫超10%</a> [10] <font color='grey'>- 12时30分</font><br>[财联社热门] <a href="https://www.cls.cn/detail/2098810" target="_blank" class="news-link">俄罗斯全面禁止炼油厂出口汽油 以确保国内供应</a> [13] <font color='grey'>- 12时30分</font></td>
+                </tr>
+            
+            </table>
+        
+            <div class="new-section">
+                <h3>🆕 本次新增热点新闻 (共 3 条)</h3>
+            <h4>今日头条 (1 条)</h4><ul><li><a href="https://www.toutiao.com/trending/7532316491706797631/" target="_blank" class="news-link">中国如何应对胡塞升级海上封锁</a> [18]</li></ul><h4>百度热搜 (1 条)</h4><ul><li><a href="https://www.baidu.com/s?wd=%E6%96%B0%E5%A4%AE%E4%BC%81%E4%B8%AD%E5%9B%BD%E9%95%BF%E5%AE%89%E6%B1%BD%E8%BD%A6%E9%9B%86%E5%9B%A2%E6%8C%82%E7%89%8C%E6%88%90%E7%AB%8B" target="_blank" class="news-link">新央企中国长安汽车集团挂牌成立</a> [10]</li></ul><h4>财联社热门 (1 条)</h4><ul><li><a href="https://www.cls.cn/detail/2099154" target="_blank" class="news-link">第三家汽车央企落地！中国长安汽车集团：未来发力飞行汽车、具身智能新赛道</a> [7]</li></ul></div>
+        </body>
+        </html>
+        
