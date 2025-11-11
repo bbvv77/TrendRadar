@@ -1,0 +1,87 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>报告类型: 实时分析</p><p>总标题数: 255</p><p>生成时间: 2025-11-12 02:47:42</p>
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">明星 综艺 新闻 国内 娱乐 影视 艺人</td>
+                    <td class="count">5</td>
+                    <td class="percentage">1.96%</td>
+                    <td class="titles">[澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_31939993" target="_blank" class="news-link">鸠山由纪夫驳高市早苗涉台言论：台湾是中国一部分，日本不应干涉中国内政</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 02时47分</font><br>[财联社热门] <a href="https://www.cls.cn/detail/2197634" target="_blank" class="news-link">商务部新闻发言人就美方暂停实施出口管制穿透性规则答记者问</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 02时47分</font><br>[今日头条] <a href="https://www.toutiao.com/trending/7570598641426579499/" target="_blank" class="news-link">鸠山由纪夫：日本不应干涉中国内政</a> [9] <font color='grey'>- 02时47分</font><br>[澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_31940821" target="_blank" class="news-link">释新闻｜高管连续辞职、被特朗普索赔：BBC为何陷入数十年来最大危机</a> [15] <font color='grey'>- 02时47分</font><br>[今日头条] <a href="https://www.toutiao.com/trending/7570265752989761578/" target="_blank" class="news-link">荒野手艺人张老六透露请假参加比赛</a> [30] <font color='grey'>- 02时47分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">国内 中国</td>
+                    <td class="count">5</td>
+                    <td class="percentage">1.96%</td>
+                    <td class="titles">[知乎] <a href="https://www.zhihu.com/question/1971140281039550325" target="_blank" class="news-link">北京银行、中国银行等多家银行关闭部分 App，为何银行纷纷进行 App 瘦身？你觉得使用更方便了吗？</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 02时47分</font><br>[bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E6%B1%89%E5%A0%A1%E7%8E%8B%E4%B8%AD%E5%9B%BD%E4%B9%9F%E8%A2%AB%E5%8D%96%E4%BA%86" target="_blank" class="news-link">汉堡王中国也被卖了</a> [7] <font color='grey'>- 02时47分</font><br>[百度热搜] <a href="https://www.baidu.com/s?wd=%E9%A6%96%E6%AC%A1%EF%BC%81%E4%B8%AD%E5%9B%BD%E6%96%B0%E8%83%BD%E6%BA%90%E8%BD%A6%E6%9C%88%E9%94%80%E9%87%8F%E8%B6%85%E7%87%83%E6%B2%B9%E8%BD%A6" target="_blank" class="news-link">首次！中国新能源车月销量超燃油车</a> [8] <font color='grey'>- 02时47分</font><br>[今日头条] <a href="https://www.toutiao.com/trending/7571332151585652787/" target="_blank" class="news-link">跨境网赌大佬佘智江将被引渡回中国</a> [13] <font color='grey'>- 02时47分</font><br>[微博] <a href="https://m.weibo.cn/search?containerid=100103type%3D1%26t%3D10%26q%3D%23%E7%BE%8E%E4%B8%BB%E6%92%AD%E9%98%B4%E9%98%B3%E6%80%AA%E6%B0%94%E4%B8%AD%E5%9B%BD%E4%BA%BA%E9%81%AD%E7%89%B9%E6%9C%97%E6%99%AE%E5%8F%8D%E9%A9%B3%23&amp;stream_entry_id=31&amp;isnewpage=1&amp;extparam=seat%3D1%26lcate%3D5001%26filter_type%3Drealtimehot%26flag%3D0%26dgr%3D0%26q%3D%2523%25E7%25BE%258E%25E4%25B8%25BB%25E6%2592%25AD%25E9%2598%25B4%25E9%2598%25B3%25E6%2580%25AA%25E6%25B0%2594%25E4%25B8%25AD%25E5%259B%25BD%25E4%25BA%25BA%25E9%2581%25AD%25E7%2589%25B9%25E6%259C%2597%25E6%2599%25AE%25E5%258F%258D%25E9%25A9%25B3%2523%26cate%3D5001%26stream_entry_id%3D31%26realpos%3D13%26c_type%3D31%26pos%3D14%26band_rank%3D13%26display_time%3D1762885929%26pre_seqid%3D176288592976102602119&amp;launchid=10000360-page_H5" target="_blank" class="news-link">美主播阴阳怪气中国人遭特朗普反驳</a> [13] <font color='grey'>- 02时47分</font></td>
+                </tr>
+            
+            </table>
+        
+        </body>
+        </html>
+        
